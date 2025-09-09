@@ -1,0 +1,155 @@
+.get {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-row: auto;
+}
+
+.container-fluid {
+    background-image: linear-gradient(45deg, #A230ED, #C364FA, #A230ED);
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+form {
+    font-weight: bolder;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(45deg, white);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 60px;
+    filter: invert(100%);
+}
+
+.username {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.username:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+}
+
+.hello {
+    justify-content: center;
+    display: grid;
+}
+
+.phone {
+    margin: 21px 0px 9px -12px;
+    color: black;
+}
+.h-600 {
+    height: 600px;
+  }
+
+
+.text-white {
+    color: black;
+}
+
+.hero {
+      height: 60vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-align: center;
+}
+
+.hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 80%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+
+.hero h1 {
+      font-size: 3rem;
+      z-index: 2;
+      position: relative;
+}
+
+
+
+.section-content {
+      font-size: 1.1rem;
+      color: #555;
+}
+
+.section-title {
+      color: #dc3545;
+      font-weight: bold;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+}
+
+.transition {
+    color: red;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.alpha {
+    color: white;
+}
+
+.group {
+    padding: 7px 9px 0px 0px
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+
+.dropdown-item.active:hover {
+    background-color: white;
+}
+
+
+.coverbody {
+    background-image: url('../../assets/images/COVER.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#ready:hover {
+    background-color: green;
+}
