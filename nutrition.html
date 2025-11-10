@@ -10,11 +10,13 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="Bootstrap_Files/css/bootstrap.css">
-    
+  <link rel="stylesheet" href="Bootstrap_Files/css/bootstrap.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="coverbody">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0" data-aos="fade-down">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="#">
@@ -28,31 +30,19 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html" id="white">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html" id="white">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gym.html" id="white">Gym</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./fitness.html" id="white">Fitness</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-danger" href="#" id="white">Nutrition</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contactus.html" id="white">Contact Us</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="index.html" id="white">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html" id="white">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./gym.html" id="white">Gym</a></li>
+          <li class="nav-item"><a class="nav-link" href="./fitness.html" id="white">Fitness</a></li>
+          <li class="nav-item"><a class="nav-link text-danger" href="#" id="white">Nutrition</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contactus.html" id="white">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  
-  <section class="hero">
-    <div class="container">
+
+  <section class="hero" data-aos="zoom-in">
+    <div class="container text-center">
       <h1 class="display-4 fw-bold text-white">Fuel Your Body Right</h1>
       <p class="lead text-white">Discover the best nutrition plans to complement your fitness goals.</p>
     </div>
@@ -60,21 +50,20 @@
 
   <section class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4 text-white">Nutrition Tips</h2>
+      <h2 class="text-center mb-4 text-white" data-aos="fade-up">Nutrition Tips</h2>
       <div class="row g-4">
-        
-       <div class="col-md-4">
-  <div class="card h-100" style="border: 1px solid black;">
-    <img src="./assets/images/nutrition1.jpeg" class="card-img-top" alt="Protein">
-    <div class="card-body">
-      <h5 class="card-title">High Protein Diet</h5>
-      <p class="card-text">Protein helps build and repair muscle. Include chicken, eggs, tofu, and legumes in your meals.</p>
-    </div>
-  </div>
-</div>
 
-        
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right">
+          <div class="card h-100" style="border: 1px solid black;">
+            <img src="./assets/images/nutrition1.jpeg" class="card-img-top" alt="Protein">
+            <div class="card-body">
+              <h5 class="card-title">High Protein Diet</h5>
+              <p class="card-text">Protein helps build and repair muscle. Include chicken, eggs, tofu, and legumes in your meals.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="zoom-in-up">
           <div class="card h-100" style="border: 1px solid black;">
             <img src="./assets/images/nutrtion2.jpeg" class="card-img-top" alt="Hydration">
             <div class="card-body">
@@ -83,8 +72,8 @@
             </div>
           </div>
         </div>
-        
-        <div class="col-md-4">
+
+        <div class="col-md-4" data-aos="fade-up">
           <div class="card h-100" style="border: 1px solid black;">
             <img src="./assets/images/nutrition3.jpeg" class="card-img-top" alt="Balanced Meal">
             <div class="card-body">
@@ -94,44 +83,44 @@
           </div>
         </div>
 
-<div class="row g-4 mt-2">
-  <div class="col-md-4">
-    <div class="card h-100" style="border: 1px solid black;">
-        <img src="./assets/images/nutrition4p2.jpeg" class="card-img-top" alt="Pre‑Workout Meal">
-
-        <div class="card-body">
-        <h5 class="card-title">Pre-Workout Meal</h5>
-        <p class="card-text">Eat slow-digesting carbs like oats or bananas 30–60 minutes before workout for energy boost.</p>
       </div>
-    </div>
-  </div>
 
-  <div class="col-md-4">
-    <div class="card h-100" style="border: 1px solid black;">
-      <img src="./assets/images/nutrition5.jpeg" class="card-img-top" alt="Post-workout Nutrition">
-      <div class="card-body">
-        <h5 class="card-title">Post-Workout Nutrition</h5>
-        <p class="card-text">After a workout, refuel with protein and carbs to help muscle recovery. Try whey protein with fruits.</p>
-      </div>
-    </div>
-  </div>
+      <div class="row g-4 mt-2">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card h-100" style="border: 1px solid black;">
+            <img src="./assets/images/nutrition4p2.jpeg" class="card-img-top" alt="Pre-Workout Meal">
+            <div class="card-body">
+              <h5 class="card-title">Pre-Workout Meal</h5>
+              <p class="card-text">Eat slow-digesting carbs like oats or bananas 30–60 minutes before workout for energy boost.</p>
+            </div>
+          </div>
+        </div>
 
-  <div class="col-md-4">
-    <div class="card h-100" style="border: 1px solid black;">
-      <img src="./assets/images/nutrition6.jpeg" class="card-img-top" alt="Supplements">
-      <div class="card-body">
-        <h5 class="card-title">Supplements</h5>
-        <p class="card-text">Use supplements like whey, BCAA, or multivitamins only when needed — always consult a trainer first.</p>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card h-100" style="border: 1px solid black;">
+            <img src="./assets/images/nutrition5.jpeg" class="card-img-top" alt="Post-workout Nutrition">
+            <div class="card-body">
+              <h5 class="card-title">Post-Workout Nutrition</h5>
+              <p class="card-text">After a workout, refuel with protein and carbs to help muscle recovery. Try whey protein with fruits.</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card h-100" style="border: 1px solid black;">
+            <img src="./assets/images/nutrition6.jpeg" class="card-img-top" alt="Supplements">
+            <div class="card-body">
+              <h5 class="card-title">Supplements</h5>
+              <p class="card-text">Use supplements like whey, BCAA, or multivitamins only when needed — always consult a trainer first.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
 
-  <section class="bg-light py-5">
+  <section class="bg-light py-5" data-aos="fade-up">
     <div class="container text-center">
       <h3>Need a Custom Meal Plan?</h3>
       <p>Our nutritionists can create a diet tailored just for you.</p>
@@ -139,66 +128,41 @@
     </div>
   </section>
 
-  <footer class="bg-dark text-white pt-5 pb-4">
+  <footer class="bg-dark text-white pt-5 pb-4" data-aos="fade-up" data-aos-duration="1000">
     <div class="container text-center text-md-left">
       <div class="row text-center text-md-left">
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 fw-bold text-warning">Abdul Kabeer</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi minus reiciendis voluptas?
-            Non adipisci error labore modi, impedit laborum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi minus reiciendis voluptas? Non adipisci error labore modi, impedit laborum.</p>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
           <h5 class="text-uppercase mb-4 fw-bold text-warning">Fitness Center</h5>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Exercise</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Practice</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Hardwork</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Nutrition</a>
-          </p>
+          <p><a href="#" class="text-white text-decoration-none">Exercise</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Practice</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Hardwork</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Nutrition</a></p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 fw-bold text-warning">Useful Links</h5>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Your Account</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Business</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Become Fit</a>
-          </p>
-          <p>
-            <a href="#" class="text-white text-decoration-none">Help</a>
-          </p>
+          <p><a href="#" class="text-white text-decoration-none">Your Account</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Business</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Become Fit</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Help</a></p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 fw-bold text-warning">Contact Us</h5>
-          <p>
-            <i class="fas fa-home mr-3"></i>Pakistan
-          </p>
-          <p>
-              <i class="fas fa-envelope mr-3"></i>fitness@gmail.com
-            </p>
-          <p>
-            <i class="fas fa-phone mr-3"></i>+92 3233266296
-          </p>
-          <p>
-            <i class="fas fa-print mr-3"></i>+01 335 633 333
-          </p>
-
+          <p><i class="fas fa-home mr-3"></i> Pakistan</p>
+          <p><i class="fas fa-envelope mr-3"></i> fitness@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +92 3233266296</p>
+          <p><i class="fas fa-print mr-3"></i> +01 335 633 333</p>
         </div>
-
       </div>
+
       <hr class="mb-4">
+
       <div class="row ai-center">
         <div class="col-md-7 col-lg-8">
-          <p> Copyright @2025 All rights reserved by:
+          <p>Copyright @2025 All rights reserved by:
             <a href="#" class="text-decoration-none">
               <strong class="text-warning">Fitness Center</strong>
             </a>
@@ -206,19 +170,26 @@
         </div>
         <div class="col-md=5 col-lg-4">
           <div class="text-center text-md-right">
-              <a href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
-              <a href="https://www.linkedin.com/in/abdul-kabeer-developer" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/abdul-kabeer-developer" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
       </div>
     </div>
   </footer>
 
-   <script src="Bootstrap_Files/js/bootstrap.js"></script>
-  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
- 
+  <script src="Bootstrap_Files/js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
 
 </body>
 </html>
